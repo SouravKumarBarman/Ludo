@@ -1,6 +1,5 @@
 #include "raylib.h"
 #include "rendering.c"
-#include "stdio.h"
 
 
 int main()
@@ -20,9 +19,7 @@ int main()
 
                 BeginDrawing();
                 ClearBackground(BLACK);
-                renderSquare();
-                renderCells();
-                renderCenter();
+                renderBoard();
                 EndDrawing();
         }
 
